@@ -1,6 +1,6 @@
-package com.gmontinny.eurekafeightacess.controller;
+package com.gmontinny.eurekafeignaccess.controller;
 
-import com.gmontinny.eurekafeightacess.feign.Home;
+import com.gmontinny.eurekafeignaccess.feign.Home;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

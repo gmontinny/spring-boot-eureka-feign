@@ -1,15 +1,17 @@
-package com.gmontinny.eurekafeightclient;
+package com.gmontinny.eurekafeignaccess;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class EurekaFeightClientApplication {
+@EnableFeignClients
+public class EurekaFeignAccessApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaFeightClientApplication.class, args);
+		SpringApplication.run(EurekaFeignAccessApplication.class, args);
 	}
 
 }
